@@ -15,5 +15,7 @@ public class Application {
         System.out.println(speaker);
 
         speaker.findAll().forEach(p -> System.out.println(p.getFirstName()));
+
+
     }
 }
